@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>CALCULADORA IMC</header>
+  <div ><p id="imc">Descubra su índice de masa corporal</p> </div>
+    <form >
+        
+        
+        <p>
+          <div id="imagenes"><p id="sex">Sexo</p> <img src="/img/man.png" id="man" onclick=changeColorM()> 
+            <img src="/img/split-line.png">
+            <img src="/img/woman.png" id="woman"onclick=changeColorW()></div>
+            
+            
+           </p>
+        
+       <p>
+           <label for="age">Edad</label> 
+           <input type="value" id="age"></p>
+        <p>
+            <label for="weight">Peso</label>
+        <input type="value"id ="weight"><span id="KG">KG</span></p>
+        <p>
+            <label for="height">Altura(metros)</label>
+          <input type="value" id="height"><span id="KG">M  </span></p>
+    
+        
+
+</form>
+<div class="wrapper">
+    <button id="myBtn"  class="button">CALCULAR IMC</button>
+    </div>
+<!-- Trigger/Open The Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <div id=textores><p id="resin">Resultado</p></div>
+  <div id="resultado"></div>
+  <div id="gradient"></div>
+  <div id="arrow-indicator"></div>
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+    <div id="healthylevels">
+    <p><img src="/img/low.png" alt=""> Bajo de peso</p>
+    <p><img src="/img/middle.png" alt="">Saludable</p>
+    <p><img src="/img/high.png">Exceso de peso</p>
+    <p><img src="/img/obesity.png">Obeso</p>
+  </div>
+  </div>
+  
+
+</div>
+<script src="main.js" type="module"></script>
+
+</body>
+</html>

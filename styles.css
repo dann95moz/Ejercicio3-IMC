@@ -1,0 +1,164 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(252,252,252,255);}
+header{
+    background-color: rgba(103,182,57,255);
+    color: rgba(253,255,252,255);
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    text-shadow: 3px 3px rgba(92,165,50,255);
+   font-size:24px;
+    font-weight: bold;
+    
+}
+.wrapper {
+    text-align: center;
+    ;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+#myBtn{
+    
+    font-size: 20px;
+    
+    background-color:rgba(103,182,57,255);
+    color: rgba(253,255,252,255);
+    text-shadow: 1px 1px rgba(92,165,50,255);
+    border: 1px solid rgba(103,182,57,255);
+    
+    text-align: center;
+    margin-left:-100px;
+    width:190px
+}
+/* The Modal (background) */
+.modal {
+    
+  display: none; /* Hidden by default */
+
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white; /* Fallback color */
+  background-color: rgba(255, 251, 251, 0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    display: block;
+        
+  background-color: #fefefe;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border: 2px solid rgb(241, 241, 241);
+  width: 20%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#resultado{
+    font-size:48px;
+    color: rgb(103,181,58);
+    width: 90px;
+    margin: 0 auto;
+    font-weight: bold;
+   
+}
+
+#imc{
+    color: rgba(198,198,198,255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    float:center;
+    margin-left:43%;
+   
+}
+input {
+    width:150px;
+    height:30px
+}
+
+
+#KG{
+    color: rgb(103,181,58) ;
+    
+}
+#imagenes  {
+    width:70px;
+    display:flex;
+   align-items:right;
+   margin-left:100%;
+   }
+
+form { 
+    margin: 0 auto; 
+    width:500px;
+    }
+   
+form  { display: table;     }
+p     { display: table-row;   }
+label { display: table-cell; text-align:right; }
+
+input { display: table-cell;  margin-top: 15px;}
+
+
+.center{
+    text-align: center
+}
+#sex{
+    margin-right: 40px;
+    margin-left: -40px;
+}
+img{
+    margin-right: 15px;
+}
+#gradient{
+    display:flex;
+    justify-content: center;
+    width: 150px;
+    margin: 0 auto;
+    
+    
+}
+#textores{
+
+     display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+#healthylevels{
+    width: 150px;
+    margin: 0 auto;
+}
+#resin{
+    font-size:24px
+
+}
+#gradient{
+    width: 400px;
+    height: 50px;
+    background: linear-gradient(270deg, #cc1414 0%,#e9b739 33%,#81ba73 66%, #0e7ad5 100%)
+}
