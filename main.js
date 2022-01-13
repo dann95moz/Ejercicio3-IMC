@@ -1,5 +1,4 @@
-import {Info} from "./data/dataJS.js"
-console.log(Info)
+
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
